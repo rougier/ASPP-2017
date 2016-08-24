@@ -10,7 +10,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.path import Path
 import matplotlib.patches as patches
-from colorsys import hsv_to_rgb
 
 n = 75
 radius = 1
