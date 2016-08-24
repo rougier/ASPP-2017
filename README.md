@@ -82,10 +82,23 @@ What's wrong with this graphic ? How would you correct it ?
 
 ![](obama.jpg)
 
+### Exercise 4: Editor request
 
-### Exercise 4: Replication
+Your article just been accepted but the editor request figure 2 to be at least
+300 dpi. What does that mean ? What is the minium size (in pixels) of your
+figure ? Is it relevant if you figure has been saved in vector format ?
 
-Look at [Drawing a brain with Bokeh](https://www.continuum.io/blog/developer-blog/drawing-brain-bokeh) and try to replicate the final figure using matpltolib.
+
+### Exercise 5: Replication
+
+Look at
+[Drawing a brain with Bokeh](http://merqur.io/2015/10/02/drawing-a-brain-with-bokeh/)
+and try to replicate the final figure using matpltolib.
+
+**or**
+
+Pick one of your favorite graphic from the litterature and try to replicate it
+using matplotlib (and fake data).
 
 
 <!---------------------------------------------------------------------------->
@@ -143,7 +156,7 @@ collected a small set of resources that might be read relatively rapidly.
 ## Solutions to the exercises
 
 1. [exercise-1-sol.py](exercise-1-sol.py) / [exercise-1-sol.png](exercise-1-sol.png) (adapted from "Trees, maps, and theorems")
-2. [exercise-2-sol.sh](exercise-1-sol.sh)
+2. [exercise-2-sol.sh](exercise-2-sol.sh)
 3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png) (adapted from "The most misleading charts of 2015, fixed")
 4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
-
+4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
