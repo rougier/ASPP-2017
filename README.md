@@ -5,6 +5,9 @@ A 2h30 crash course on scientific visualization...
 University of Reading, 2016.
 
 
+[![](trust.jpg)](http://velica.deviantart.com/art/Error-bars-101948712)  
+Copyright © 2008-2016 [Velica](http://velica.deviantart.com/art/Error-bars-101948712)
+
 <!---------------------------------------------------------------------------->
 ## Introduction
 
@@ -33,6 +36,29 @@ will be actually perceived might be quite different.
 
 <!---------------------------------------------------------------------------->
 ## Data type
+
+### Quantitative
+Values or observations that can be measured:  
+
+  * Continuous  
+  * Discrete  
+
+### Categorical
+Values or observations that can be sorted into groups or categories:  
+
+  * Nominal  
+  * Ordinal  
+  * Interval  
+
+
+
+<!---------------------------------------------------------------------------->
+## Visualization type
+
+From the [Data visualization catalogue](http://www.datavizcatalogue.com/index.html) by Severino Ribecca:
+
+![](catalogue.png)
+
 
 
 <!---------------------------------------------------------------------------->
@@ -117,6 +143,7 @@ collected a small set of resources that might be read relatively rapidly.
 * [Information Visualization](http://www.cs.ubc.ca/~tmm/courses/infovis/slides/intro.pdf), T. Munzner, 2015.
 * [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide),
   C. Groskopf, 2015.
+* [Quantitative vs. Categorical Data: A Difference Worth Knowing](https://www.perceptualedge.com/articles/dmreview/quant_vs_cat_data.pdf), S. Few , 2005.
 
 **Tools**  
 
@@ -124,6 +151,9 @@ collected a small set of resources that might be read relatively rapidly.
   J. Hunter and M. Droettboom, 2010.
 * [10 Useful Python Data Visualization Libraries for Any Discipline](https://blog.modeanalytics.com/python-data-visualization-libraries/), M. Bierly, 2016.
 * [Datavisualization.ch](https://selection.datavisualization.ch), 2015.
+* [Data visualization catalogue](http://www.datavizcatalogue.com/index.html),
+  S. Ribecca, 2016.
+
 * [Fred's ImageMagick script](http://www.fmwconcepts.com/imagemagick/), F. Weinhaus, 2016.
 
 **Books**  
