@@ -153,7 +153,6 @@ collected a small set of resources that might be read relatively rapidly.
 * [Datavisualization.ch](https://selection.datavisualization.ch), 2015.
 * [Data visualization catalogue](http://www.datavizcatalogue.com/index.html),
   S. Ribecca, 2016.
-
 * [Fred's ImageMagick script](http://www.fmwconcepts.com/imagemagick/), F. Weinhaus, 2016.
 
 **Books**  
@@ -182,6 +181,7 @@ collected a small set of resources that might be read relatively rapidly.
 * [Effects on Different Types of Textile on Sexual Activity](http://www.moosecraft.org/Rat/RatPaper.pdf), Ahmed Shafik, European Urology, 1993.
 -->
 
+
 <!---------------------------------------------------------------------------->
 ## Solutions to the exercises
 
@@ -190,3 +190,7 @@ collected a small set of resources that might be read relatively rapidly.
 3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png) (adapted from "The most misleading charts of 2015, fixed")
 4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
 4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
+
+----
+
+![](phd.jpg)
