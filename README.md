@@ -21,17 +21,15 @@ definition for scientific visualization would be a graphical interface between
 people and data.
 
 But remember, there are two people in the loop: the one that produces the
-visualization and the one that watches it. What you intend to show and what
-will be actually perceived might be quite different.
+visualization and the one that watches it. What you intend to show might be quite different from what will be actually perceived...
 
 <!---------------------------------------------------------------------------->
-## The visualization pipeline
+## Visualization pipeline
 
-1. Raw data
-2. Processed data
-3. Filtered data
-4. Mapped data
-5. Rendered data
+1. Raw data (whatever...)
+2. Filtered data (missing, noise, analytics, statistics, ...)
+3. Mapped data (geometry, attributes, colors, ...)
+4. Rendered data (static image, interactive display, ...)
 
 
 <!---------------------------------------------------------------------------->
@@ -54,11 +52,24 @@ Values or observations that can be sorted into groups or categories:
 
 <!---------------------------------------------------------------------------->
 ## Visualization type
-
-From the [Data visualization catalogue](http://www.datavizcatalogue.com/index.html) by Severino Ribecca:
-
 ![](catalogue.png)
 
+From the [Data visualization catalogue](http://www.datavizcatalogue.com/index.html) by Severino Ribecca.
+
+
+<!---------------------------------------------------------------------------->
+## Ten simple rules
+
+1. Know your audience
+2. Identify Your Message
+3. Adapt the Figure to the Support Medium
+4. Captions Are Not Optional
+5. Do Not Trust the Defaults
+6. Use Color Effectively
+7. Do Not Mislead the Reader
+8. Avoid “Chartjunk”
+9. Message Trumps Beauty
+10. Get the Right Tool
 
 
 <!---------------------------------------------------------------------------->
@@ -170,7 +181,7 @@ collected a small set of resources that might be read relatively rapidly.
 * [Data is beautiful](https://www.reddit.com/r/dataisbeautiful/) / reddit.
 
 
-**Bad examples**  
+**Bad examples (don't do that at home)**  
 
 * [Junk charts](http://junkcharts.typepad.com), K. Fung, 2005-2016.
 * [WTF Visualizations](http://viz.wtf), community supported.
@@ -181,6 +192,7 @@ collected a small set of resources that might be read relatively rapidly.
 * [Effects on Different Types of Textile on Sexual Activity](http://www.moosecraft.org/Rat/RatPaper.pdf), Ahmed Shafik, European Urology, 1993.
 -->
 
+----
 
 <!---------------------------------------------------------------------------->
 ## Solutions to the exercises
@@ -191,6 +203,5 @@ collected a small set of resources that might be read relatively rapidly.
 4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
 4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
 
-----
 
 ![](phd.jpg)
