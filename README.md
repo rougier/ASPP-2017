@@ -35,19 +35,26 @@ visualization and the one that watches it. What you intend to show might be quit
 <!---------------------------------------------------------------------------->
 ## Data type
 
-### Quantitative
-Values or observations that can be measured:  
+**Quantitative** (values or observations that can be measured)
 
   * Continuous  
   * Discrete  
 
-### Categorical
-Values or observations that can be sorted into groups or categories:  
+**Categorical** (values or observations that can be sorted into groups or
+categories)
 
   * Nominal  
   * Ordinal  
   * Interval  
 
+
+<!---------------------------------------------------------------------------->
+## Graphical elements
+
+* Points, markers, lines, areas, ...
+* Position, color, shape, size, orientation, curvature, ...
+* Helpers, text, axis, ticks,
+* Interaction, animation
 
 
 <!---------------------------------------------------------------------------->
@@ -203,5 +210,4 @@ collected a small set of resources that might be read relatively rapidly.
 4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
 4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
 
-
-![](phd.jpg)
+![](edward-tufte.png)
