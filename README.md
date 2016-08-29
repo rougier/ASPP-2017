@@ -6,9 +6,11 @@ University of Reading, 2016.
 
 
 [![](trust.jpg)](http://velica.deviantart.com/art/Error-bars-101948712)  
-Copyright © 2008-2016 [Velica](http://velica.deviantart.com/art/Error-bars-101948712)
 
-<!---------------------------------------------------------------------------->
+*All visualizations share a common "DNA"—a set of mappings between data properties and visual attributes such as position, size, shape,and color—and customized species of visualization might always be constructed by varying these encodings.*  
+
+[A tour through the Visualization zoo](http://delivery.acm.org/10.1145/1750000/1743567/p59-heer.pdf) J. Heer, M. Bostock, V. Ogievetsky, 2010 .
+
 ## Introduction
 
 Scientific visualization is classically defined as the process of graphically
@@ -18,13 +20,21 @@ plots, linear plots, bar plots, and pie charts, to name just a
 few. Furthermore, the same data, using the same type of plot, may be perceived
 very differently depending on who is looking at the figure. A more accurate
 definition for scientific visualization would be a graphical interface between
-people and data.
+people and data. But remember, there are two people in the loop: the one that
+produces the visualization and the one that watches it. What you intend to show
+might be quite different from what will be actually perceived...
 
-But remember, there are two people in the loop: the one that produces the
-visualization and the one that watches it. What you intend to show might be quite different from what will be actually perceived...
+The goal of this crash course is to introduce a few concepts in order for you
+to achieve better visualization (hopefully). If you want to go further, you'll
+have to look at the miscellaneous references given at the end of this document.
 
-<!---------------------------------------------------------------------------->
+
 ## Visualization pipeline
+
+The visualization pipeline describes the process of creating visual
+representations of data, from the raw data up to the final rendering. There is
+no unique definition of such pipeline but most of the time you'll find at least
+3 steps (filter, map, render). 
 
 1. Raw data (whatever...)
 2. Filtered data (missing, noise, analytics, statistics, ...)
@@ -32,8 +42,11 @@ visualization and the one that watches it. What you intend to show might be quit
 4. Rendered data (static image, interactive display, ...)
 
 
-<!---------------------------------------------------------------------------->
+
 ## Data type
+
+The nature of the data has a great influence on the kind of visualization you
+can use. Traditionally, they are split as:
 
 **Quantitative** (values or observations that can be measured)
 
@@ -47,25 +60,47 @@ categories)
   * Ordinal  
   * Interval  
 
+but you can also find finer detailed descriptions in the litterature.
 
-<!---------------------------------------------------------------------------->
+
+
 ## Graphical elements
+
+In the end, a scientific figures can be fully described by a set of
+graphic primitives with different attributes:
 
 * Points, markers, lines, areas, ...
 * Position, color, shape, size, orientation, curvature, ...
 * Helpers, text, axis, ticks,
 * Interaction, animation
 
+But describing a figure in terms of such graphic pirmitive would be a very
+tedious and complex task if you had to describe everything. This is exactly
+where visualization libraries or software are useful because they will
+automatize most of the work, more
+(e.g. [seaborn](https://stanford.edu/~mwaskom/software/seaborn/)) or less
+(e.g. [matplotlib](http://matplotlib.org)) depending on the library.
 
-<!---------------------------------------------------------------------------->
+
 ## Visualization type
 ![](catalogue.png)
 
 From the [Data visualization catalogue](http://www.datavizcatalogue.com/index.html) by Severino Ribecca.
 
 
-<!---------------------------------------------------------------------------->
+
+## Less is more
+
+*Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away* – Antoine de Saint-Exupery
+
+![](data-ink.gif)
+
+
+
 ## Ten simple rules
+
+From [Ten simple rules for better figures](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833), N.P. Rougier, M. Droettboom, P.E. Bourne, 2014.
+
 
 1. Know your audience
 2. Identify Your Message
@@ -79,7 +114,7 @@ From the [Data visualization catalogue](http://www.datavizcatalogue.com/index.ht
 10. Get the Right Tool
 
 
-<!---------------------------------------------------------------------------->
+
 ## Exercices
 
 ### Exercise 1: Too much ink...
@@ -162,16 +197,18 @@ collected a small set of resources that might be read relatively rapidly.
 * [The Quartz guide to bad data](https://github.com/Quartz/bad-data-guide),
   C. Groskopf, 2015.
 * [Quantitative vs. Categorical Data: A Difference Worth Knowing](https://www.perceptualedge.com/articles/dmreview/quant_vs_cat_data.pdf), S. Few , 2005.
+* [How to make beautiful data visualizations in Python with matplotlib](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/), Randy Olson, 2014.
 
-**Tools**  
+**(Some) Tools**  
 
 * [Matplotlib](http://www.aosabook.org/en/matplotlib.html),
   J. Hunter and M. Droettboom, 2010.
 * [10 Useful Python Data Visualization Libraries for Any Discipline](https://blog.modeanalytics.com/python-data-visualization-libraries/), M. Bierly, 2016.
-* [Datavisualization.ch](https://selection.datavisualization.ch), 2015.
+* [Datavisualization.ch](http://selection.datavisualization.ch), 2015.
 * [Data visualization catalogue](http://www.datavizcatalogue.com/index.html),
   S. Ribecca, 2016.
 * [Fred's ImageMagick script](http://www.fmwconcepts.com/imagemagick/), F. Weinhaus, 2016.
+* [Ti*k*Z and PGF](http://www.texample.net/tikz/), Stefan Kottwitz
 
 **Books**  
 
@@ -204,9 +241,11 @@ collected a small set of resources that might be read relatively rapidly.
 <!---------------------------------------------------------------------------->
 ## Solutions to the exercises
 
-1. [exercise-1-sol.py](exercise-1-sol.py) / [exercise-1-sol.png](exercise-1-sol.png) (adapted from "Trees, maps, and theorems")
+1. [exercise-1-sol.py](exercise-1-sol.py) / [exercise-1-sol.png](exercise-1-sol.png)  
+(adapted from "Trees, maps, and theorems")
 2. [exercise-2-sol.sh](exercise-2-sol.sh)
-3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png) (adapted from "The most misleading charts of 2015, fixed")
+3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png)  
+(adapted from "The most misleading charts of 2015, fixed")
 4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
 4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
 
