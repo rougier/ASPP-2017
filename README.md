@@ -246,7 +246,7 @@ collected a small set of resources that might be read relatively rapidly.
 2. [exercise-2-sol.sh](exercise-2-sol.sh)
 3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png)  
 (adapted from "The most misleading charts of 2015, fixed")
-4. [exercise-4-sol.py](exercise-4-sol.py) / [exercise-4-sol.png](exercise-4-sol.png) 
+4. [exercise-4-sol.md](exercise-4-sol.md)
 4. [exercise-5-sol.py](exercise-5-sol.py) / [exercise-5-sol.png](exercise-5-sol.png) 
 
 ![](edward-tufte.png)
