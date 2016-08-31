@@ -7,9 +7,10 @@ University of Reading, 2016.
 
 [![](trust.jpg)](http://velica.deviantart.com/art/Error-bars-101948712)  
 
-*All visualizations share a common "DNA"—a set of mappings between data properties and visual attributes such as position, size, shape,and color—and customized species of visualization might always be constructed by varying these encodings.*  
 
-[A tour through the Visualization zoo](http://delivery.acm.org/10.1145/1750000/1743567/p59-heer.pdf) J. Heer, M. Bostock, V. Ogievetsky, 2010 .
+"*Visualisation is a method of computing. It transforms the symbolic into the geometric, enabling researchers to observe their simulations and computations. Visualisation offers a method for seeing the unseen. It enriches the process of scientific discovery and fosters profound and unexpected insights.*"
+ 
+Visualisation in Scientific Computing, NSF report, 1987.
 
 ## Introduction
 
@@ -74,12 +75,12 @@ graphic primitives with different attributes:
 * Helpers, text, axis, ticks,
 * Interaction, animation
 
-But describing a figure in terms of such graphic pirmitive would be a very
-tedious and complex task if you had to describe everything. This is exactly
-where visualization libraries or software are useful because they will
-automatize most of the work, more
+But describing a figure in terms of such graphic primitive would be a very
+tedious and complex task. This is exactly where visualization libraries or
+software are useful because they will automatize most of the work, more
 (e.g. [seaborn](https://stanford.edu/~mwaskom/software/seaborn/)) or less
-(e.g. [matplotlib](http://matplotlib.org)) depending on the library.
+(e.g. [matplotlib](http://matplotlib.org)) depending on the library. In the
+ideal case, you want to only specify your data and let the library decides of almost everything (e.g. [vega-lite](https://vega.github.io/vega-lite/))
 
 
 ## Visualization type
