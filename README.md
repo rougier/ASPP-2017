@@ -244,8 +244,7 @@ collected a small set of resources that might be read relatively rapidly.
 
 1. [exercise-1-sol.py](exercise-1-sol.py) / [exercise-1-sol.png](exercise-1-sol.png)  
 (adapted from "Trees, maps, and theorems")
-2. [exercise-2-sol.sh](exercise-2-sol.sh) or
-   [exercise-2-sol.py](exercise-2-sol.py)
+2. [exercise-2-sol.sh](exercise-2-sol.sh) or [exercise-2-sol.py](exercise-2-sol.py)
 3. [exercise-3-sol.py](exercise-3-sol.py) / [exercise-3-sol.png](exercise-3-sol.png)  
 (adapted from "The most misleading charts of 2015, fixed")
 4. [exercise-4-sol.md](exercise-4-sol.md)
