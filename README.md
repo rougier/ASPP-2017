@@ -114,6 +114,7 @@ From [Ten simple rules for better figures](http://journals.plos.org/ploscompbiol
 9. Message Trumps Beauty
 10. Get the Right Tool
 
+See also https://github.com/rougier/ten-rules
 
 
 ## Exercices
