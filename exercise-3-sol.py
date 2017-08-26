@@ -3,7 +3,7 @@
 # Distributed under the (new) BSD License. See LICENSE.txt for more info.
 # -----------------------------------------------------------------------------
 # Scientific visualization course
-# G-Node 2016 summer school, University of Reading
+# Advanced Scientific Programming in Python summer school
 # Inspired by http://merqur.io/2015/10/02/drawing-a-brain-with-bokeh
 # -----------------------------------------------------------------------------
 import numpy as np

@@ -4,7 +4,7 @@
 # Distributed under the (new) BSD License. See LICENSE.txt for more info.
 # -----------------------------------------------------------------------------
 # Scientific visualization course
-# G-Node 2016 summer school, University of Reading
+# Advanced Scientific Python Programming summer school
 # -----------------------------------------------------------------------------
 
 # Draw 3 rectangles on the image 

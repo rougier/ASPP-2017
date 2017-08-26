@@ -2,7 +2,7 @@
 A 2h30 crash course on scientific visualization...   
 [Nicolas P. Rougier](http://www.labri.fr/perso/nrougier),
 [G-Node summer school](https://python.g-node.org/),
-University of Reading, 2016.
+Nikiti, Greece, 2017.
 
 
 [![](trust.jpg)](http://velica.deviantart.com/art/Error-bars-101948712)  

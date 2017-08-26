@@ -2,9 +2,8 @@
 # Copyright (c) 2016, Nicolas P. Rougier. All Rights Reserved.
 # Distributed under the (new) BSD License. See LICENSE.txt for more info.
 # -----------------------------------------------------------------------------
-# Scientific visualization course (https://github.com/rougier/ASPP-2016)
-# Advanced Scientific Python Programming course
-# University of Reading, 2016, https://python.g-node.org/wiki/ 
+# Scientific visualization crash course 
+# Advanced Scientific Python Programming summer school
 # -----------------------------------------------------------------------------
 import matplotlib.pyplot as plt
 

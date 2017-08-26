@@ -3,7 +3,7 @@
 # Distributed under the (new) BSD License. See LICENSE.txt for more info.
 # -----------------------------------------------------------------------------
 # Scientific visualization course
-# G-Node 2016 summer school, University of Reading
+# Advanced Scientific Programming in Python summer school
 # -----------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
